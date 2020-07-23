@@ -9,7 +9,7 @@ default: build
 
 .PHONY:build build_plugin
 build:
-	go build -o plugin-test .
+	go build -trimpath -o plugin-test .
 
 build_plugin:
-	go build --buildmode=plugin -o plugins/example.so ./example/.
+	go build -trimpath --buildmode=plugin -o plugins/example.so ./example/.
