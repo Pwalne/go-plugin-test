@@ -1,2 +1,2 @@
 # go-plugin-test
-Testing plugins with shared vendors
+Testing plugins with shared vendors.
