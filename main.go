@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Pwalne/plugin-test/shared"
+	"github.com/Pwalne/go-plugin-test/shared"
 	"path/filepath"
 	"plugin"
 )

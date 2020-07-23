@@ -1,7 +1,7 @@
 package main // it is required to build package as main
 import (
 	"fmt"
-	"github.com/Pwalne/plugin-test/shared"
+	"github.com/Pwalne/go-plugin-test/shared"
 )
 
 // These cannot be pointers.
